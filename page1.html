@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BOYCOTT APARTHEID</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+
+    
+   <div class="container">
+  <img src="text_web.svg" class="spin">
+  <img class="imageTwo" src="bg.svg">
+  <img class="imageThree" src="cactus.png">
+</div> 
+    
+    
+    <body>
+        
+        <ul>
+        <li>Directory</li>
+        <li>Stickers</li>    
+        </ul>
+    
+<style>
+    
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+    
+        @keyframes spinning {
+                    from { transform: rotate(0deg) }
+                    to { transform: rotate(360deg) }
+            }
+                    .spin {
+                    animation-name: spinning;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    /* linear | ease | ease-in | ease-out | ease-in-out */
+                     animation-timing-function: linear;
+                     
+                        
+            }
+            
+    
+    body{
+        
+                background-color:#987;
+    }
+    ul{
+          padding:10px;
+    }
+    
+    li{
+        display: inline-block;
+        list-style: none;
+        font-family: 'Rubik', sans-serif;  
+        color: black;
+        text-align: center;
+        font-size: .2em;
+        border:1px solid;
+        box-shadow: 1.2em 1.2em darkgrey;
+        border-radius: 2em;
+        padding: 1.5em;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        
+       
+    
+    }
+    .container {
+  position: relative;
+  width: 50%;/*Or whatever you want*/
+  margin:auto;
+  height:auto;        
+          
+}
+.imageOne {
+  margin:auto;    
+  width: 100%;
+  height:auto;  
+  position: absolute;    
+    
+    
+}
+.imageTwo {
+  margin:auto;
+  width: 100%;
+  height: auto;    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;    
+}
+
+.imageThree {
+  margin:auto;
+  width: 100%;
+  height: auto;    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;   
+    }
+  
+</style>
+        
+    </body>
+    </html>
